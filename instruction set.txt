@@ -1,0 +1,18 @@
+00000001 : add  r0 r1 r2 -- r1 + r2 = r0
+00000010 : addi r0 r1 c2 -- r1 + c2 = r0
+00000011 : sub  r0 r1 r2 -- r1 - r2 = r0
+00000100 : mul  r0 r1 r2 -- r1 * r2 = r0
+00000101 : div  r0 r1 r2 -- r1 / r2 = r0
+00000110 : cmp  r0 r1 r2 -- if (r1 == r2) then r0 = 0 else r0 = 1
+00000111 : mov  r0 r1    -- copy value in r1 into r0
+00001000 : ldr  r0 r1    -- Memory[r1] is stored in r0
+00001001 : ldc  r0 c1    -- put constant in r0
+00001010 : sto  r0 r1    -- store r1 value at Memory[r0]
+00001011 : be   r0 label -- if r0 == 0 then branches
+00001100 : bne
+00001101 : bgth
+00001110 : bgthe
+00001111 : blth
+00010000 : blthe
+00010001 : j    label    -- unconditionaly branches will do in decode
+00010010 : sys

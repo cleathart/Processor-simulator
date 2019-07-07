@@ -1,0 +1,8 @@
+.vscode
+
+/bin
+/assembler/assembler
+/simulators
+
+*.zip
+*.prog
