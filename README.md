@@ -1,4 +1,4 @@
-# Advanced_computer_architecture
+# Processor Simulator
 
 A Superscalar out of order processor simulator.
 
